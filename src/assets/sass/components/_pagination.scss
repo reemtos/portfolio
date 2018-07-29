@@ -1,0 +1,35 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    &__link {
+        background-color: $color-grey-lighter;
+        color: $color-ebony;
+        font-size: 1.3rem;
+        font-weight: 700;
+        letter-spacing: 0.15rem;
+        line-height: 2rem;
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.5s ease;
+        @include respond(small) {
+            padding: 0.5rem 1rem;
+        }
+        &--icon {
+            &.prev {
+                margin-right: 1rem;
+            }
+            &.next {
+                margin-left: 1rem;
+            }
+        }
+        &--label {}
+        @include respond(small) {
+            font-size: 1.2rem;
+            letter-spacing: 0.09rem;
+        }
+        &:hover {
+            background-color: $color-grey-light;
+        }
+    }
+}

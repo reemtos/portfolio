@@ -1,0 +1,81 @@
+.service {
+    display: flex;
+    @include respond(large) {
+        align-items: center;
+        flex-direction: column;
+    }
+    &__item {
+        align-items: center;
+        background-color: $color-grey-lighter;
+        display: flex;
+        flex: 1 1 100%;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 4rem 3rem;
+        transition: 1s ease;
+        @include respond(large) {
+            align-items: flex-start;
+            flex-direction: row;
+            margin: 1rem 0;
+            padding: 3rem 4rem;
+            width: 80%;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        @include respond(medium) {
+            width: 90%;
+        }
+        @include respond(small) {
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            padding: 4rem 3rem;
+            width: 100%;
+            &:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+        }
+        &--icon-box {
+            height: 5.4rem;
+            margin-bottom: 1rem;
+            position: relative;
+            width: 5.5rem;
+            background-size: contain;
+            @include respond(large) {
+                margin-right: 4rem;
+            }
+            @include respond(small) {
+                margin-right: 0;
+            }
+        }
+        &--icon {
+            @include alignCenterXY;
+            &.laptop {
+                width: 3.6rem;
+                height: 3.4rem;
+            }
+            &.layout {
+                width: 4rem;
+                height: 3rem;
+            }
+            &.mobile {
+                width: 5.4rem;
+                height: 4rem;
+            }
+        }
+        &:hover {
+            background-color: $color-white;
+            box-shadow: $default-box-shadow;
+        }
+        &--description {
+            text-align: center;
+            @include respond(large) {
+                text-align: left;
+            }
+            @include respond(small) {
+                text-align: center;
+            }
+        }
+    }
+}

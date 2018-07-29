@@ -1,0 +1,38 @@
+.testimonial {
+    display: flex;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    @include respond(large) {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    &__item {
+        flex: 0 0 50%;
+        padding: 1rem;
+        @include respond(large) {
+            padding: 0;
+            width: 80%;
+            &:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+        }
+        @include respond(medium) {
+            width: 90%;
+        }
+        @include respond(small) {
+            width: 100%;
+        }
+        &-wrapper {
+            background-color: $color-white;
+            border-top: 3px solid $color-ebony-lighter;
+            padding: 3.6rem 4rem 4rem;
+            @include respond(small) {
+                padding: 3rem;
+            }
+        }
+        a {
+            color: $color-ebony;
+        }
+    }
+}

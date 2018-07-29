@@ -1,0 +1,15 @@
+.section-head {
+    padding: 0 2rem 3rem;
+    text-align: center;
+    @include respond(small) {
+        padding-bottom: 4rem;
+    }
+    &::after {
+        background-color: $color-ebony;
+        content: '';
+        display: block;
+        height: 0.3rem;
+        margin: 2rem auto 0;
+        width: 4rem;
+    }
+}

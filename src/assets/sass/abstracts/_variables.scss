@@ -1,0 +1,22 @@
+// COLORS
+$color-black: rgba(0, 0, 0, 1);
+$color-bluewood: rgba(52, 73, 94, 1);
+$color-ebony: rgba(34, 49, 63, 1);
+$color-ebony-light: rgba(34, 49, 63, 0.6);
+$color-ebony-lighter: rgba(34, 49, 63, 0.1);
+$color-grey-lighter: rgba(242, 241, 239, 0.3);
+$color-grey-light: rgba(242, 241, 239, 1);
+$color-white: rgba(255, 255, 255, 1);
+// BORDER
+$default-border-radius: 3px;
+// BOX SHADOW
+$default-box-shadow: 0 1.5rem 3.5rem rgba(50, 50, 93, .1),
+0 .5rem 1.5rem rgba(0, 0, 0, .07);
+// FONT
+$default-font-size: 1.6rem;
+// GRID
+$grid-width: 96rem;
+$gutter-vertical: 3rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 3rem;
+$gutter-gap: 3rem;

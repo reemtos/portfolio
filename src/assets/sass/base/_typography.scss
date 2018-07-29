@@ -1,0 +1,72 @@
+body {
+    color: $color-ebony;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.heading-primary {
+    color: $color-ebony;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    @include respond(small) {
+        font-size: 2.1rem;
+        line-height: 2.9rem;
+    }
+}
+
+.heading-secondary {
+    color: $color-bluewood;
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.heading-tertiary {
+    color: $color-bluewood;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: 0.06rem;
+    margin-bottom: 1.3rem;
+}
+
+.main-heading {
+    color: $color-ebony;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.sub-heading {
+    color: $color-ebony-light;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+
+.paragraph {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: 0.05rem;
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+    &.small {
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+    }
+    &.smaller {
+        font-size: 1.2rem;
+    }
+}

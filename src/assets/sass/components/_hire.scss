@@ -1,0 +1,26 @@
+.hire {
+    padding: 0 1rem;
+    text-align: center;
+    @include respond(large) {
+        padding: 0;
+    }
+    &__wrapper {
+        background-color: $color-white;
+        padding: 4rem 15rem;
+        @include respond(largest) {
+            padding: 4rem 5rem 5rem;
+        }
+        @include respond(large) {
+            margin: 0 auto;
+            padding: 3rem 4rem 4rem;
+            width: 80%;
+        }
+        @include respond(medium) {
+            padding: 3rem;
+            width: 90%;
+        }
+        @include respond(small) {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.section-about {
+    &.white {
+        background-color: $color-white;
+    }
+    &.light {
+        background-color: $color-grey-light;
+    }
+    &.lighter {
+        background-color: $color-grey-lighter;
+    }
+}
+
+.about-info {
+    padding: 0 1rem;
+    @include respond(medium) {
+        padding: 0;
+    }
+    .link {
+        color: $color-ebony;
+        font-weight: 700;
+        font-style: italic;
+    }
+}

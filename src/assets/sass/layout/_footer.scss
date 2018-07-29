@@ -1,0 +1,48 @@
+.footer {
+    align-items: center;
+    background-color: $color-ebony;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3rem 6rem;
+    text-align: center;
+    &__scroll-button {
+        margin-top: -2.7rem;
+    }
+    &__scroll--link {
+        background-color: $color-white;
+        color: $color-ebony;
+        display: inline-block;
+        padding: 1.5rem 2rem;
+        &:hover>* {
+            @include bounceContinously;
+        }
+    }
+    &__scroll--icon {
+        font-size: 2rem;
+        transition: all .3s ease;
+    }
+    &__social {
+        display: flex;
+        margin: 4rem 0 3.5rem;
+        &--link {
+            backface-visibility: hidden;
+            color: inherit;
+            display: inline-block;
+            transition: all .3s ease;
+            padding: 0 1.5rem;
+            &:hover {
+                transform: rotate(360deg) scale(1.5);
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+        &--icon {
+            font-size: 2.5rem;
+            line-height: 4rem;
+        }
+    }
+    &__copyright {}
+}

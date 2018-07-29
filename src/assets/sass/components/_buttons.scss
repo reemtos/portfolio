@@ -1,0 +1,43 @@
+.btn {
+    background-color: $color-bluewood;
+    border: none;
+    color: $color-white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.4rem;
+    letter-spacing: 0.13rem;
+    line-height: 1.7rem;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    &>* {
+        display: inline-block;
+        height: 100%;
+        transition: all .2s;
+        width: 100%;
+    }
+    &__label {
+        &--visible {
+            padding: 1.5rem 4rem;
+        }
+        &--invisible {
+            background-color: $color-ebony;
+            padding: 1.5rem 0;
+            position: absolute;
+            left: 0;
+            top: -100%;
+        }
+    }
+    &:hover &__label--visible {
+        transform: translateY(100%);
+    }
+    &:hover &__label--invisible {
+        top: 0;
+    }
+    &:focus {
+        animation: bounce 1s infinite;
+    }
+}

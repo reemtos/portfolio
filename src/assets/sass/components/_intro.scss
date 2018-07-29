@@ -1,0 +1,41 @@
+.about {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    @include respond(large) {
+        align-items: center;
+        flex-direction: column;
+    }
+    &__image-box {
+        background-color: $color-grey-light;
+        flex: 0 0 46%;
+        margin-right: auto;
+        padding: 1rem;
+        @include respond(large) {
+            max-width: 80%;
+            margin: 0;
+        }
+        @include respond(small) {
+            max-width: 100%;
+        }
+        .image {
+            display: block;
+            height: auto;
+            width: 100%;
+        }
+    }
+    &__info {
+        flex: 0 0 50%;
+        @include respond(large) {
+            max-width: 80%;
+            margin-top: 3rem;
+            text-align: center;
+        }
+        @include respond(medium) {
+            padding: 0 1rem;
+        }
+        @include respond(small) {
+            max-width: 100%;
+        }
+    }
+}

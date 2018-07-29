@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; // 1rem = 10px; (10px/16px) * 100% = 62.5%
+}
+
+body {
+    box-sizing: border-box;
+}
+
+::selection {
+    // background-color: $color-ebony-light;
+    // color: $color-white;
+}
