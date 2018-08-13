@@ -4,12 +4,12 @@
         <div class="project-details">
           <div class="project-details__heading">
             <h3 class="heading-primary">#CodeChallenge: Trillo</h3>
-            <h4 class="sub-heading">Landing Page Development</h4>
+            <h4 class="sub-heading">Responsive Landing Page</h4>
           </div>
           <div class="project-details__body">
             <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
-            <img src="../assets/img/portfolio/trillo/trillo-homepage.png" alt="Light theme image">
+            <p class="paragraph">Trillo is a mobile-responsive landing page for a fictional company that offers booking services of various kinds. This project is courtesy of Jonas Schmedtmann's Advanced CSS and SASS course on Udemy. The site is powered by my favorite CSS3 feature - Flexible Box Module aka FlexBox. Source code is available <a class="link" href="https://github.com/reemtos/pp2-trillo" target="_blank">here</a> on GitHub with <a class="link" href="https://reemtos.github.io/pp2-trillo/" target="_blank">live demo</a> published on GitHub's Page.</p>
+            <img src="../assets/img/portfolio/trillo/trillo-homepage.png" alt="trillo homepage">
           </div>
           <div class="project-details__footer">
             <div class="pagination">

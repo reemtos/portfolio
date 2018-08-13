@@ -69,4 +69,9 @@ body {
     &.smaller {
         font-size: 1.2rem;
     }
+    .link {
+        color: $color-ebony;
+        font-weight: 700;
+        // font-style: italic;
+    }
 }

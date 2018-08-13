@@ -8,11 +8,12 @@
           </div>
           <div class="project-details__body">
             <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
+            <p class="paragraph">So, my workplace wanted a redesign of the current website, and they threw it open to the entire engineering team for ideas and options. This particular challenge was an interesting one for me, because it was my first end-to-end design challenge. I took the time to design all required pages, as there was a need to thoroughly convey my thought process and considerations. It was a collaborative effort between myself and a colleague, and the process lasted exactly two weeks.</p>
+            <h4 class="heading-tertiary u-center-text">The Current Design</h4>
+            <img src="../assets/img/portfolio/summitech/summitech-original-homepage.png" alt="Light theme image">
+            <h4 class="heading-tertiary u-center-text">The New Home Page</h4>
+            <p class="paragraph">So, I opted for a simple, clean and minimalistic design. I did away with unnecessary slides (mostly javascript dependencies) and killed a lot of arcade contents that somehow affect page performance and mobile experience.  I placed emphasis on the company, their services and their products.</p>
             <img src="../assets/img/portfolio/summitech/home-page.jpg" alt="Light theme image">
-            <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
-            <img src="../assets/img/portfolio/summitech/contact-page.jpg" alt="Dark theme image">
           </div>
           <div class="project-details__footer">
             <div class="pagination">

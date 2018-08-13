@@ -15,9 +15,4 @@
     @include respond(medium) {
         padding: 0;
     }
-    .link {
-        color: $color-ebony;
-        font-weight: 700;
-        font-style: italic;
-    }
 }

@@ -8,17 +8,8 @@
           </div>
           <div class="project-details__body">
             <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
-            <img src="../assets/img/portfolio/natours/natours-home-page-intro.png" alt="Light theme image">
-            <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
-            <img src="../assets/img/portfolio/natours/natours-home-page-cards.png" alt="Light theme image">
-            <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
-            <img src="../assets/img/portfolio/natours/natours-home-page-testimonial.png" alt="Light theme image">
-            <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
-            <img src="../assets/img/portfolio/natours/natours-home-page-footer.png" alt="Light theme image">
+            <p class="paragraph">Natours is a mobile-responsive landing page for a fictional company that offers touring services into nature. This project is courtesy of Jonas Schmedtmann's Advanced CSS and SASS course on Udemy. The site is built with HTML5 and CSS3 only, with implementations of animations, clip-paths, background video and a couple of other interesting features. Source code is available <a class="link" href="https://github.com/reemtos/pp1-natours" target="_blank">here</a> on GitHub with <a class="link" href="https://reemtos.github.io/pp1-natours/" target="_blank">live demo</a> published via GitHub's Page.</p>
+            <img src="../assets/img/portfolio/natours/natours-home-page.jpg" alt="natours home page">
           </div>
           <div class="project-details__footer">
             <div class="pagination">

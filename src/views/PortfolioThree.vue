@@ -8,13 +8,13 @@
           </div>
           <div class="project-details__body">
             <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
+            <p class="paragraph">This project is a simple web developer portfolio built with VueJs. It was my first attempt at learning Vue and the project is courtesy of Gary Simon's VueJs crash course on <b>coursetro</b>. The focus was to learn and understand Vue's syntax, style, components, animations and routing; hence, the nature of the (dummy) contents. Source code is available <a class="link" href="https://github.com/reemtos/pp3-portfolio" target="_blank">here</a> on GitHub with <a class="link" href="https://reemtos.github.io/pp3-portfolio/" target="_blank">live demo</a> published via GitHub's Page.
+            </p>
+            <h4 class="heading-tertiary u-center-text">Home Page</h4>
             <img src="../assets/img/portfolio/vue-portfolio/portfolio-homepage.png" alt="Light theme image">
-            <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
+            <h4 class="heading-tertiary u-center-text">Portfolio Page 1</h4>
             <img src="../assets/img/portfolio/vue-portfolio/portfolio-work-1.png" alt="Dark theme image">
-            <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph">Phoenix Seminary is expanding their online program as well as their overall enrollment so they reached out Brandon Riley, who is one of the top digital marketers in Phoenix. After coming up with a strategy for their digital marketing, Brandon brought me in to design and build a landing page to capture traffic from paid search. Our goal was to create a responsive landing page that loaded quickly and converted well.</p>
+            <h4 class="heading-tertiary u-center-text">Portfolio Page 2</h4>
             <img src="../assets/img/portfolio/vue-portfolio/portfolio-work-2.png" alt="Dark theme image">
           </div>
           <div class="project-details__footer">

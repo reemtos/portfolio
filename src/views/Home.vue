@@ -116,27 +116,21 @@
         <div class="testimonial">
             <div class="testimonial__item">
                 <div class="testimonial__item-wrapper">
-                    <p class="paragraph u-text-italic">&OpenCurlyDoubleQuote;When you work with Tosin, you get his vast knowledge of coding, best practices,
-                        accessibility expertise, and cutting edge approaches. What you also get is someone who cares
-                        about the overall health and quality of the work from every angle: user experience, visual design,
-                        usability, and much more.&CloseCurlyDoubleQuote;</p>
+                    <p class="paragraph u-text-italic">&OpenCurlyDoubleQuote;Tosin has a combination of solid technical software development skills and an eye for great design. This combination, which is rare to find, ensures his projects are of good quality. Having worked closely with him, I can say that he is a master at styling, and he upholds the best practices of development. His contributions during project meetings also are always sound.&CloseCurlyDoubleQuote;</p>
                     <h4 class="heading-tertiary">-
-                        <a href="#" title="Adekunle's LinkedIn Profile">Adekunle, Kunle-Hassan</a>
+                        <a href="https://www.linkedin.com/in/tobi-amodu/" title="Tobi's LinkedIn Profile" target="_blank">Tobi Amodu</a>
                     </h4>
-                    <p class="paragraph small u-text-italic">Founder/CEO,
-                        <a href="#" title="Summitech's Website">Summitech Computing Ltd.</a>
+                    <p class="paragraph u-text-italic">UX Designer, <b>GTBank.</b>
                     </p>
                 </div>
             </div>
             <div class="testimonial__item">
                 <div class="testimonial__item-wrapper">
-                    <p class="paragraph u-text-italic">“When you work with Tosin, you get his vast knowledge of coding, best practices, accessibility expertise, and cutting edge approaches. What you also get is someone who cares about the overall health and quality of the work from every angle: user experience, visual design, usability, and much more.”
-                    </p>
+                    <p class="paragraph u-text-italic">&OpenCurlyDoubleQuote;Tosin is an incredibly talented developer, a good team player and a great colleague. What really makes him stand out is his work ethics and steady approach. Not only does he get work done on time and to spec, he also pays attention to details that affect the aesthetics and functionality of the software; whilst communicating effectively with the team.&CloseCurlyDoubleQuote;</p>
                     <h4 class="heading-tertiary">-
-                        <a href="#" title="Adekunle's LinkedIn Profile">Adekunle, Kunle-Hassan</a>
+                        <a href="https://www.linkedin.com/in/onemole/" title="Olusegun's LinkedIn Profile" target="_blank">Olusegun Omilabu</a>
                     </h4>
-                    <p class="paragraph small u-text-italic">Founder/CEO,
-                        <a href="#" title="Summitech's Website">Summitech Computing Ltd.</a>
+                    <p class="paragraph u-text-italic">Software Engineer, <b>Summitech Limited.</b>
                     </p>
                 </div>
             </div>

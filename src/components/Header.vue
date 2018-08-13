@@ -15,9 +15,6 @@
                         <router-link to="/work" class="navigation__link">Work</router-link>
                     </li>
                     <li class="navigation__item">
-                        <a href="https://medium.com/@reemtos" target="_blank" class="navigation__link">Blog</a>
-                    </li>
-                    <li class="navigation__item">
                         <a href="mailto:tosinorimogunje@gmail.com" class="navigation__link">Say Hello</a>
                     </li>
                 </ul>
