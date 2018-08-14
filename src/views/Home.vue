@@ -100,7 +100,7 @@
                 <div class="service__item--description">
                     <h4 class="heading-tertiary">Mobile Apps</h4>
                     <p class="paragraph small">
-                        By combining a powerful mobile framework such as Nativescript with Javascript frameworks like Angular and Vue.js, I develop native Android and iOS applications that look great and also function efficiently.
+                        By combining a powerful mobile framework such as Nativescript with Javascript frameworks like Angular or Vue.js, I develop native Android and iOS applications that look great and also function efficiently.
                     </p>
                 </div>
             </div>
