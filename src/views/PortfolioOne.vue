@@ -8,7 +8,7 @@
           </div>
           <div class="project-details__body">
             <h4 class="heading-tertiary u-center-text">Background</h4>
-            <p class="paragraph"><a class="link" href="https://memes.curatedbits.com/" target="_blank">Curated Memes</a> is a “basic website where people can create account, upload and freely download memes for their use”, and was launched in June, 2018. The developer and owner had just announced the launch on his Instagram when I stumbled on his post. He wanted ideas, criticisms and insights as to how to improve the site’s look and feel, as well as usability. I thought the project was an interesting idea, and considering I was up for a #DesignChanllenge where I refactor a site’s look and feel, I decided I was going to hop on it.</p>
+            <p class="paragraph"><a class="link" href="https://memes.curatedbits.com/" target="_blank">Curated Memes</a> is a “basic website where people can create account, upload and freely download memes for their use”, and was launched in June, 2018. The developer and owner had just announced the launch on his Instagram when I stumbled on his post. He wanted ideas, criticisms and insights as to how to improve the site’s look and feel, as well as usability. I thought the project was an interesting idea, and considering I was up for a #DesignChallenge where I refactor a site’s look and feel, I decided I was going to hop on it.</p>
             <img src="../assets/img/portfolio/curated-memes/curated-memes-original.jpg" alt="curated memes original">
             
             <h4 class="heading-tertiary u-center-text">Current Design</h4>
