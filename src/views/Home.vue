@@ -89,8 +89,8 @@
                 </div>
                 <div class="service__item--description">
                     <h4 class="heading-tertiary">UI/UX Design</h4>
-                    <p class="paragraph small">With modern-day tools like Sketch and Marvel App, I enjoy creating design mockups, wireframes,
-                        as well as prototyping; with adequate attention to the tiniest of details. </p>
+                    <p class="paragraph small">With design tools like Sketch and plugins like Marvel App, I enjoy creating design mockups, wireframes,
+                        as well as prototyping for both web and mobile; with adequate attention to the tiniest of details. </p>
                 </div>
             </div>
             <div class="service__item">
@@ -115,17 +115,17 @@
         <div class="testimonial">
             <div class="testimonial__item">
                 <div class="testimonial__item-wrapper">
-                    <p class="paragraph u-text-italic">&OpenCurlyDoubleQuote;Tosin has a combination of solid technical software development skills and an eye for great design. This combination, which is rare to find, ensures his projects are of good quality. Having worked closely with him, I can say that he is a master at styling, and he upholds the best practices of development. His contributions during project meetings also are always sound.&CloseCurlyDoubleQuote;</p>
+                    <p class="paragraph u-text-italic">&OpenCurlyDoubleQuote;Tosin is a talented front-end engineer who is proactive and confident in his work. He easily goes beyond the basics of his role by making recommendations towards improvements to products and services. Tosin works well as part of a team, though his doggedness in pursuit of good ideas can sometimes cause some friction. Overall, Tosin is a pleasure to work with and his passion for his work vocation often shines through.&CloseCurlyDoubleQuote;</p>
                     <h4 class="heading-tertiary">-
-                        <a href="https://www.linkedin.com/in/tobi-amodu/" title="Tobi's LinkedIn Profile" target="_blank">Tobi Amodu</a>
+                        <a href="https://www.linkedin.com/in/adekunle-kunle-hassan-7a965438/" title="Kunle's LinkedIn Profile" target="_blank">Adekunle Kunle-Hassan</a>
                     </h4>
-                    <p class="paragraph u-text-italic">UX Designer, <b>GTBank.</b>
+                    <p class="paragraph u-text-italic">Founder / CEO, <b>Summitech Limited.</b>
                     </p>
                 </div>
             </div>
             <div class="testimonial__item">
                 <div class="testimonial__item-wrapper">
-                    <p class="paragraph u-text-italic">&OpenCurlyDoubleQuote;Tosin is an incredibly talented developer, a good team player and a great colleague. What really makes him stand out is his work ethics and steady approach. Not only does he get work done on time and to spec, he also pays attention to details that affect the aesthetics and functionality of the software; whilst communicating effectively with the team.&CloseCurlyDoubleQuote;</p>
+                    <p class="paragraph u-text-italic">&OpenCurlyDoubleQuote;Tosin is an incredibly talented developer, a good team player and a great colleague. What really makes him stand out is his work ethics and steady approach to development. Not only does he get work done on time and to specification, he also pays attention to details that affect the general aesthetics and functionality of software products. He does all of these while also communicating effectively with his team members.&CloseCurlyDoubleQuote;</p>
                     <h4 class="heading-tertiary">-
                         <a href="https://www.linkedin.com/in/onemole/" title="Olusegun's LinkedIn Profile" target="_blank">Olusegun Omilabu</a>
                     </h4>
