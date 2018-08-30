@@ -24,6 +24,16 @@
         </div>
         <div class="portfolio">
             <div class="portfolio__item">
+                <router-link to="/portfolio/coursetro-redesign" title="View case study" class="portfolio__item-link">
+                    <div class="portfolio__item-shape" :style="{ 'background-image': 'url(' + require('../assets/img/portfolio/coursetro/coursetro-showcase.png') + ')' }">
+                        <div class="portfolio__item-description">
+                            <h4 class="portfolio__item--label">Redesigning Gary Simon’s Coursetro</h4>
+                            <h4 class="portfolio__item--sub-label">User interface and experience redesign of Gary Simon’s online learning platform - Coursetro.</h4>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+            <div class="portfolio__item">
                 <router-link to="/portfolio/curated-memes" title="View case study" class="portfolio__item-link">
                     <div class="portfolio__item-shape" :style="{ 'background-image': 'url(' + require('../assets/img/portfolio/curated-memes/curated-memes-showcase.jpg') + ')' }">
                         <div class="portfolio__item-description">
@@ -37,18 +47,8 @@
                 <router-link to="/portfolio/yomi-the-poet" title="View case study" class="portfolio__item-link">
                     <div class="portfolio__item-shape" :style="{ 'background-image': 'url(' + require('../assets/img/portfolio/yomi-the-poet/yomi-the-poet-showcase.jpg') + ')' }">
                         <div class="portfolio__item-description">
-                            <h4 class="portfolio__item--label">Yomi the Poet</h4>
+                            <h4 class="portfolio__item--label">Yomi the Poet Website</h4>
                             <h4 class="portfolio__item--sub-label">Responsive website development for Nigerian poet and book reviewer - Yomi the Poet.</h4>
-                        </div>
-                    </div>
-                </router-link>
-            </div>
-            <div class="portfolio__item">
-                <router-link to="/portfolio/dev-portfolio-vue" title="View case study" class="portfolio__item-link">
-                    <div class="portfolio__item-shape" :style="{ 'background-image': 'url(' + require('../assets/img/portfolio/vue-portfolio/portfolio-showcase.jpg') + ')' }">
-                        <div class="portfolio__item-description">
-                            <h4 class="portfolio__item--label">#CodeChallenge: Developer Portfolio</h4>
-                            <h4 class="portfolio__item--sub-label">A landing page design and development of a web developer portfolio built with Vue JS.</h4>
                         </div>
                     </div>
                 </router-link>

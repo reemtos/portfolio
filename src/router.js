@@ -9,6 +9,7 @@ import PortfolioThree from './views/PortfolioThree.vue'
 import PortfolioFour from './views/PortfolioFour.vue'
 import PortfolioFive from './views/PortfolioFive.vue'
 import PortfolioSix from './views/PortfolioSix.vue'
+import PortfolioSeven from './views/PortfolioSeven.vue'
 
 Vue.use(Router)
 
@@ -83,6 +84,14 @@ export default new Router({
       component: PortfolioSix,
       meta: {
         title: '#DesignChallenge: Summitech | '
+      }
+    },
+    {
+      path: '/portfolio/coursetro-redesign',
+      name: 'coursetro',
+      component: PortfolioSeven,
+      meta: {
+        title: 'Redesigning Gary Simon\'s Coursetro | '
       }
     }
   ],
