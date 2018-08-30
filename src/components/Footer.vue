@@ -18,6 +18,9 @@
             <a href="https://github.com/reemtos" target="_blank" class="footer__social--link" title="GitHub">
                 <i class="fab fa-github footer__social--icon"></i>
             </a>
+            <a href="https://codepen.io/reemtos/" target="_blank" class="footer__social--link" title="Codepen">
+                <i class="fab fa-codepen footer__social--icon"></i>
+            </a>
             <a href="https://medium.com/@reemtos" target="_blank" class="footer__social--link" title="Medium">
                 <i class="fab fa-medium-m footer__social--icon"></i>
             </a>
