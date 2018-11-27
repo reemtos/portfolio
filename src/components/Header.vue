@@ -12,7 +12,7 @@
                         <router-link to="/about" class="navigation__link">About</router-link>
                     </li>
                     <li class="navigation__item">
-                        <router-link to="/work" class="navigation__link">Work</router-link>
+                        <router-link to="/works" class="navigation__link">Works</router-link>
                     </li>
                     <li class="navigation__item">
                         <a href="mailto:tosinorimogunje@gmail.com" class="navigation__link">Say Hello</a>

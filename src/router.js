@@ -2,14 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
-import Work from './views/Work.vue'
-import PortfolioOne from './views/PortfolioOne.vue'
-import PortfolioTwo from './views/PortfolioTwo.vue'
-import PortfolioThree from './views/PortfolioThree.vue'
-import PortfolioFour from './views/PortfolioFour.vue'
-import PortfolioFive from './views/PortfolioFive.vue'
-import PortfolioSix from './views/PortfolioSix.vue'
-import PortfolioSeven from './views/PortfolioSeven.vue'
+import Works from './views/Works.vue'
+import CuratedMemes from './views/works/CuratedMemes.vue'
+import YomiThePoet from './views/works/YomiThePoet.vue'
+import Natours from './views/works/Natours.vue'
+import Trillo from './views/works/Trillo.vue'
+import Coursetro from './views/works/Coursetro.vue'
+import SegunsPortfolio from './views/works/SegunsPortfolio.vue'
 
 Vue.use(Router)
 
@@ -31,67 +30,59 @@ export default new Router({
       }
     },
     {
-      path: '/work',
-      name: 'work',
-      component: Work,
+      path: '/works',
+      name: 'works',
+      component: Works,
       meta: {
         title: 'My Works | '
       }
     },
     {
-      path: '/portfolio/curated-memes',
+      path: '/work/curated-memes',
       name: 'curated-memes',
-      component: PortfolioOne,
+      component: CuratedMemes,
       meta: {
         title: '#DesignChallenge: Curated Memes | '
       }
     },
     {
-      path: '/portfolio/yomi-the-poet',
+      path: '/work/yomi-the-poet',
       name: 'yomi-the-poet',
-      component: PortfolioTwo,
+      component: YomiThePoet,
       meta: {
         title: 'Yomi the Poet Website | '
       }
     },
     {
-      path: '/portfolio/dev-portfolio-vue',
-      name: 'dev-portfolio-vue',
-      component: PortfolioThree,
-      meta: {
-        title: '#CodeChallenge: Developer Portfolio | '
-      }
-    },
-    {
-      path: '/portfolio/natours',
+      path: '/work/natours',
       name: 'natours',
-      component: PortfolioFour,
+      component: Natours,
       meta: {
         title: '#CodeChallenge: Natours | '
       }
     },
     {
-      path: '/portfolio/trillo',
+      path: '/work/trillo',
       name: 'trillo',
-      component: PortfolioFive,
+      component: Trillo,
       meta: {
         title: '#CodeChallenge: Trillo | '
       }
     },
     {
-      path: '/portfolio/summitech',
-      name: 'summitech',
-      component: PortfolioSix,
+      path: '/work/coursetro-redesign',
+      name: 'coursetro',
+      component: Coursetro,
       meta: {
-        title: '#DesignChallenge: Summitech | '
+        title: 'Redesigning Gary Simon\'s Coursetro | '
       }
     },
     {
-      path: '/portfolio/coursetro-redesign',
-      name: 'coursetro',
-      component: PortfolioSeven,
+      path: '/work/oluseguns-portfolio',
+      name: 'oluseguns-portfolio',
+      component: SegunsPortfolio,
       meta: {
-        title: 'Redesigning Gary Simon\'s Coursetro | '
+        title: 'Portfolio Design for Olusegun Omilabu | '
       }
     }
   ],

@@ -24,7 +24,17 @@
         </div>
         <div class="portfolio">
             <div class="portfolio__item">
-                <router-link to="/portfolio/coursetro-redesign" title="View case study" class="portfolio__item-link">
+                <router-link to="/work/oluseguns-portfolio" title="View case study" class="portfolio__item-link">
+                    <div class="portfolio__item-shape" :style="{ 'background-image': 'url(' + require('../assets/img/portfolio/segun/showcase.jpg') + ')' }">
+                        <div class="portfolio__item-description">
+                            <h4 class="portfolio__item--label">Portfolio design for Olusegun Omilabu</h4>
+                            <h4 class="portfolio__item--sub-label">User interface design for Nigerian front-end developer and designer - Olusegun Omilabu's portfolio.</h4>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+            <div class="portfolio__item">
+                <router-link to="/work/coursetro-redesign" title="View case study" class="portfolio__item-link">
                     <div class="portfolio__item-shape" :style="{ 'background-image': 'url(' + require('../assets/img/portfolio/coursetro/coursetro-showcase.png') + ')' }">
                         <div class="portfolio__item-description">
                             <h4 class="portfolio__item--label">Redesigning Gary Simon’s Coursetro</h4>
@@ -34,7 +44,7 @@
                 </router-link>
             </div>
             <div class="portfolio__item">
-                <router-link to="/portfolio/curated-memes" title="View case study" class="portfolio__item-link">
+                <router-link to="/work/curated-memes" title="View case study" class="portfolio__item-link">
                     <div class="portfolio__item-shape" :style="{ 'background-image': 'url(' + require('../assets/img/portfolio/curated-memes/curated-memes-showcase.jpg') + ')' }">
                         <div class="portfolio__item-description">
                             <h4 class="portfolio__item--label">#DesignChallenge: Curated Memes</h4>
@@ -44,21 +54,11 @@
                 </router-link>
             </div>
             <div class="portfolio__item">
-                <router-link to="/portfolio/yomi-the-poet" title="View case study" class="portfolio__item-link">
+                <router-link to="/work/yomi-the-poet" title="View case study" class="portfolio__item-link">
                     <div class="portfolio__item-shape" :style="{ 'background-image': 'url(' + require('../assets/img/portfolio/yomi-the-poet/yomi-the-poet-showcase.jpg') + ')' }">
                         <div class="portfolio__item-description">
                             <h4 class="portfolio__item--label">Yomi the Poet Website</h4>
                             <h4 class="portfolio__item--sub-label">Responsive website development for Nigerian poet and book reviewer - Yomi the Poet.</h4>
-                        </div>
-                    </div>
-                </router-link>
-            </div>
-            <div class="portfolio__item">
-                <router-link to="/portfolio/natours" title="View case study" class="portfolio__item-link">
-                    <div class="portfolio__item-shape" :style="{ 'background-image': 'url(' + require('../assets/img/portfolio/natours/natours-showcase.jpg') + ')' }">
-                        <div class="portfolio__item-description">
-                            <h4 class="portfolio__item--label">#CodeChallenge: Natours</h4>
-                            <h4 class="portfolio__item--sub-label">A responsive landing page for a fictional company that offers tours and guides into Nature.</h4>
                         </div>
                     </div>
                 </router-link>

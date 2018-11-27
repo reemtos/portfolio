@@ -1,4 +1,4 @@
-<template>
+d<template>
     <footer class="footer">
         <div class="footer__scroll-button">
             <a href="#" v-scroll-to="'#header'" class="footer__scroll--link" title="Back to top">

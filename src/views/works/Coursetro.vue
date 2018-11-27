@@ -13,22 +13,22 @@
             <p class="paragraph">Recently, I realised how much improvements his site could use, so I decided to give it a well-deserved makeover. A detailed breakdown of how I achieved this, my thought-process and considerations is published via <a class="link" href="https://medium.com/@reemtos" target="_blank">my Medium account</a> tagged <a class="link" href="https://medium.com/@reemtos/redesigning-gary-simons-coursetro-69ee49d77aa8" target="_blank">“Redesigning Gary Simon’s Coursetro”</a>. Please take some time to check it out so you have an understanding of how I arrived at the new design.</p>
             
             <h4 class="heading-tertiary u-center-text">The Current Design</h4>
-            <img src="../assets/img/portfolio/coursetro/coursetro-current-home-page.png" alt="new coursetro design">
+            <img src="../../assets/img/portfolio/coursetro/coursetro-current-home-page.png" alt="new coursetro design">
             
             <h4 class="heading-tertiary u-center-text">The New Design</h4>
             <p class="paragraph">The new design takes the current design, the user experience and data presentation from good to better, and to great. It gives Coursetro the refreshing new look and feel that it deserves, and it also highlights how tiny improvements can play vital roles on a site’s overall look and feel.</p>
-            <img src="../assets/img/portfolio/coursetro/new-coursetro-design.jpg" alt="new coursetro design">
+            <img src="../../assets/img/portfolio/coursetro/new-coursetro-design.jpg" alt="new coursetro design">
           </div>
           <div class="project-details__footer">
             <div class="pagination">
-              <router-link to="/portfolio/summitech" class="pagination__link">
+              <router-link to="/work/oluseguns-portfolio" class="pagination__link">
                 <i class="fas fa-chevron-left pagination__link--icon prev"></i>
                 <span class="pagination__link--label">Prev</span>
               </router-link>
               <router-link to="/work" class="pagination__link">
                 <span class="pagination__link--label">All works</span>
               </router-link>
-              <router-link to="/portfolio/curated-memes" class="pagination__link">
+              <router-link to="/work/curated-memes" class="pagination__link">
                 <span class="pagination__link--label">Next</span>
                 <i class="fas fa-chevron-right pagination__link--icon next"></i>
               </router-link>
@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import Hire from '../components/Hire';
+import Hire from '../../components/Hire';
 
 export default {
   components: {
